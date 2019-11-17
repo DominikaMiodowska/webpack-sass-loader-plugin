@@ -9,7 +9,7 @@ import './styles/footer.scss'
 
 console.log(checkForName);
 
-alert("I EXIST")
+// alert("I EXIST")
 
 export{
     checkForName,
