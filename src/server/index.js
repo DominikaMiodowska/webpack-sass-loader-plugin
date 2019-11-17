@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
 
 
 app.get('/test', function (req, res) {
-    res.send(mockAPIResponse)
+    res.json(mockAPIResponse)
 })
 // designates what port the app will listen to for incoming requests
 app.listen(8081, function () {
